@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Website Blocker",
+    "version": "1.0",
+    "description": "Blocks YouTube after 1 minute and requires 1 minute on LeetCode to unblock.",
+    "permissions": [
+      "tabs",
+      "storage",
+      "webNavigation"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  }
+  
