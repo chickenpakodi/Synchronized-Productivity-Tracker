@@ -1,5 +1,5 @@
 # Synchronized-Productivity-Tracker
-• Storage:
+• Storage:/n
 o Chrome's storage.sync is used to persist the amount of time spent on both websites and
 whether YouTube is blocked (isBlocked).
 manifest.json
